@@ -1,5 +1,26 @@
-header{
+*{
+    margin: 0;
+    padding: 0;
+} /*essa etapa ajusta o conteudo na pagina*/
+
+.cabecalho{
+
     background-color: #2C2B44;
-    color: #FFFFFF
+    color: #FFFFFF;
+    display: flex; /*ordena o conteudo na horizontal*/
+    justify-content: space-around; /*ajusta o menu a direita*/
+    align-items: center;
+    padding: 24px 0;  
 
 }
+.cabecalho-imagem{
+    width: 20%;
+
+}
+.cabecalho-lista-item{
+    display: inline-block; /*organiza as palavras inline*/
+    margin: 0 16px;
+    font-size: 24px;
+
+}
+
