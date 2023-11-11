@@ -3,6 +3,11 @@
     padding: 0;
 } /*essa etapa ajusta o conteudo na pagina*/
 
+body{
+    font-family: 'Kanit', sans-serif;
+    
+}
+
 .cabecalho{
 
     background-color: #2C2B44;
@@ -43,3 +48,37 @@
     width: 35%;
 }
 
+.img-1{
+    width: 200px;
+}
+
+.social-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.projetos-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.projeto-titulo{
+    text-align: center;
+    padding: 50px 0;
+
+}
+.projetos-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+
+}
+.rodape{
+    background-color: #2C2B44;
+    text-align: center;
+}
+
+.rodape-img{
+    height: 60px;
+    padding: 12px 0;
+}
